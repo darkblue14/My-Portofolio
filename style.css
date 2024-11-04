@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #395886;
+    color: #f0f3fa;
+}
+nav {
+    background-color: #f0f3fa;
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    color: #395886
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero{
+    display: flex;
+    padding: 64px;
+    justify-content: space-between;
+}
+
+.hero-name p {
+    font-size: 50px;
+}
+
+.hero-location {
+    font-size: 16px;
+}
+
+.hero-sosmed {
+    display: flex;
+    gap: 16px;
+    
+}
